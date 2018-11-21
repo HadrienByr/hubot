@@ -1,0 +1,541 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'hubot',
+1 verbose cli   'hubot-scripts',
+1 verbose cli   'hubot-diagnostics',
+1 verbose cli   'hubot-help',
+1 verbose cli   'hubot-heroku-keepalive',
+1 verbose cli   'hubot-google-images',
+1 verbose cli   'hubot-google-translate',
+1 verbose cli   'hubot-pugme',
+1 verbose cli   'hubot-maps',
+1 verbose cli   'hubot-redis-brain',
+1 verbose cli   'hubot-rules',
+1 verbose cli   'hubot-shipit',
+1 verbose cli   '--save' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData hubot
+8 silly fetchPackageMetaData hubot-scripts
+9 silly fetchPackageMetaData hubot-diagnostics
+10 silly fetchPackageMetaData hubot-help
+11 silly fetchPackageMetaData hubot-heroku-keepalive
+12 silly fetchPackageMetaData hubot-google-images
+13 silly fetchPackageMetaData hubot-google-translate
+14 silly fetchPackageMetaData hubot-pugme
+15 silly fetchPackageMetaData hubot-maps
+16 silly fetchPackageMetaData hubot-redis-brain
+17 silly fetchPackageMetaData hubot-rules
+18 silly fetchPackageMetaData hubot-shipit
+19 silly fetchNamedPackageData hubot
+20 silly mapToRegistry name hubot
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/hubot
+24 silly fetchNamedPackageData hubot-scripts
+25 silly mapToRegistry name hubot-scripts
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/hubot-scripts
+29 silly fetchNamedPackageData hubot-diagnostics
+30 silly mapToRegistry name hubot-diagnostics
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/hubot-diagnostics
+34 silly fetchNamedPackageData hubot-help
+35 silly mapToRegistry name hubot-help
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/hubot-help
+39 silly fetchNamedPackageData hubot-heroku-keepalive
+40 silly mapToRegistry name hubot-heroku-keepalive
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/hubot-heroku-keepalive
+44 silly fetchNamedPackageData hubot-google-images
+45 silly mapToRegistry name hubot-google-images
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://registry.npmjs.org/hubot-google-images
+49 silly fetchNamedPackageData hubot-google-translate
+50 silly mapToRegistry name hubot-google-translate
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/hubot-google-translate
+54 silly fetchNamedPackageData hubot-pugme
+55 silly mapToRegistry name hubot-pugme
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry uri https://registry.npmjs.org/hubot-pugme
+59 silly fetchNamedPackageData hubot-maps
+60 silly mapToRegistry name hubot-maps
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/hubot-maps
+64 silly fetchNamedPackageData hubot-redis-brain
+65 silly mapToRegistry name hubot-redis-brain
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry https://registry.npmjs.org/
+68 silly mapToRegistry uri https://registry.npmjs.org/hubot-redis-brain
+69 silly fetchNamedPackageData hubot-rules
+70 silly mapToRegistry name hubot-rules
+71 silly mapToRegistry using default registry
+72 silly mapToRegistry registry https://registry.npmjs.org/
+73 silly mapToRegistry uri https://registry.npmjs.org/hubot-rules
+74 silly fetchNamedPackageData hubot-shipit
+75 silly mapToRegistry name hubot-shipit
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry uri https://registry.npmjs.org/hubot-shipit
+79 verbose request uri https://registry.npmjs.org/hubot
+80 verbose request no auth needed
+81 info attempt registry request try #1 at 16:04:17
+82 verbose request id deeb91d8ad593497
+83 verbose etag W/"9922d4039046a26ff8531642604b65b9"
+84 verbose lastModified Fri, 03 Aug 2018 16:58:48 GMT
+85 http request GET https://registry.npmjs.org/hubot
+86 verbose request uri https://registry.npmjs.org/hubot-scripts
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 16:04:17
+89 verbose etag W/"d22f6324ce6c6f261fa50c2cc1e97e8b"
+90 verbose lastModified Sun, 27 May 2018 04:09:12 GMT
+91 http request GET https://registry.npmjs.org/hubot-scripts
+92 verbose request uri https://registry.npmjs.org/hubot-diagnostics
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 16:04:17
+95 verbose etag W/"552966fddbbe42c5e13ae80d7ffedf53"
+96 verbose lastModified Mon, 13 Aug 2018 20:55:23 GMT
+97 http request GET https://registry.npmjs.org/hubot-diagnostics
+98 verbose request uri https://registry.npmjs.org/hubot-help
+99 verbose request no auth needed
+100 info attempt registry request try #1 at 16:04:17
+101 verbose etag W/"30f574fe53053b93e9c503d7c8197dd4"
+102 verbose lastModified Mon, 13 Aug 2018 20:55:49 GMT
+103 http request GET https://registry.npmjs.org/hubot-help
+104 verbose request uri https://registry.npmjs.org/hubot-heroku-keepalive
+105 verbose request no auth needed
+106 info attempt registry request try #1 at 16:04:17
+107 verbose etag W/"ffc0dd67cd218ec962f3f4e2b20c1688"
+108 verbose lastModified Sun, 27 May 2018 04:07:34 GMT
+109 http request GET https://registry.npmjs.org/hubot-heroku-keepalive
+110 verbose request uri https://registry.npmjs.org/hubot-google-images
+111 verbose request no auth needed
+112 info attempt registry request try #1 at 16:04:17
+113 verbose etag W/"adaa1ccc1be07a73c33b4827a98fbfe6"
+114 verbose lastModified Sun, 27 May 2018 04:07:26 GMT
+115 http request GET https://registry.npmjs.org/hubot-google-images
+116 verbose request uri https://registry.npmjs.org/hubot-google-translate
+117 verbose request no auth needed
+118 info attempt registry request try #1 at 16:04:17
+119 verbose etag W/"be028cb1112677e1dcfc3ce4026cf71b"
+120 verbose lastModified Sun, 27 May 2018 04:07:26 GMT
+121 http request GET https://registry.npmjs.org/hubot-google-translate
+122 verbose request uri https://registry.npmjs.org/hubot-pugme
+123 verbose request no auth needed
+124 info attempt registry request try #1 at 16:04:17
+125 verbose etag W/"9de22352ede70d849c07b080de8d172f"
+126 verbose lastModified Sun, 27 May 2018 04:08:48 GMT
+127 http request GET https://registry.npmjs.org/hubot-pugme
+128 verbose request uri https://registry.npmjs.org/hubot-maps
+129 verbose request no auth needed
+130 info attempt registry request try #1 at 16:04:17
+131 verbose etag W/"290fcbbf1550491d8d277b6bf299d30e"
+132 verbose lastModified Sun, 27 May 2018 04:08:15 GMT
+133 http request GET https://registry.npmjs.org/hubot-maps
+134 verbose request uri https://registry.npmjs.org/hubot-redis-brain
+135 verbose request no auth needed
+136 info attempt registry request try #1 at 16:04:17
+137 verbose etag W/"e20a5e3057700c421321a1a351419907"
+138 verbose lastModified Mon, 13 Aug 2018 20:56:39 GMT
+139 http request GET https://registry.npmjs.org/hubot-redis-brain
+140 verbose request uri https://registry.npmjs.org/hubot-shipit
+141 verbose request no auth needed
+142 info attempt registry request try #1 at 16:04:17
+143 verbose etag W/"cf4d122da08aad74a30feb4cdb6ee054"
+144 verbose lastModified Sun, 27 May 2018 04:09:19 GMT
+145 http request GET https://registry.npmjs.org/hubot-shipit
+146 verbose request uri https://registry.npmjs.org/hubot-rules
+147 verbose request no auth needed
+148 info attempt registry request try #1 at 16:04:17
+149 verbose etag W/"e85455880be94eecb55fe0c798027fa1"
+150 verbose lastModified Mon, 13 Aug 2018 20:57:04 GMT
+151 http request GET https://registry.npmjs.org/hubot-rules
+152 http 304 https://registry.npmjs.org/hubot-scripts
+153 verbose headers { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+153 verbose headers   connection: 'keep-alive',
+153 verbose headers   'set-cookie':
+153 verbose headers    [ '__cfduid=dd725bb01a25c6962c950e777bf12ab7f1542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+153 verbose headers   'cf-cache-status': 'HIT',
+153 verbose headers   'cache-control': 'max-age=300',
+153 verbose headers   'cf-ray': '47d40c43b8dd3be1-CDG',
+153 verbose headers   etag: '"d22f6324ce6c6f261fa50c2cc1e97e8b"',
+153 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+153 verbose headers   'last-modified': 'Sun, 27 May 2018 04:09:12 GMT',
+153 verbose headers   vary: 'accept-encoding, accept',
+153 verbose headers   server: 'cloudflare' }
+154 silly get cb [ 304,
+154 silly get   { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+154 silly get     connection: 'keep-alive',
+154 silly get     'set-cookie':
+154 silly get      [ '__cfduid=dd725bb01a25c6962c950e777bf12ab7f1542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+154 silly get     'cf-cache-status': 'HIT',
+154 silly get     'cache-control': 'max-age=300',
+154 silly get     'cf-ray': '47d40c43b8dd3be1-CDG',
+154 silly get     etag: '"d22f6324ce6c6f261fa50c2cc1e97e8b"',
+154 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+154 silly get     'last-modified': 'Sun, 27 May 2018 04:09:12 GMT',
+154 silly get     vary: 'accept-encoding, accept',
+154 silly get     server: 'cloudflare' } ]
+155 verbose etag https://registry.npmjs.org/hubot-scripts from cache
+156 verbose get saving hubot-scripts to /home/hadrien/.npm/registry.npmjs.org/hubot-scripts/.cache.json
+157 http 304 https://registry.npmjs.org/hubot-google-images
+158 verbose headers { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+158 verbose headers   connection: 'keep-alive',
+158 verbose headers   'set-cookie':
+158 verbose headers    [ '__cfduid=dd15421ac2cf5888b5eed0cf939dd4baf1542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+158 verbose headers   'cf-cache-status': 'HIT',
+158 verbose headers   'cache-control': 'max-age=300',
+158 verbose headers   'cf-ray': '47d40c43bda63be7-CDG',
+158 verbose headers   etag: '"adaa1ccc1be07a73c33b4827a98fbfe6"',
+158 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+158 verbose headers   'last-modified': 'Sun, 27 May 2018 04:07:26 GMT',
+158 verbose headers   vary: 'accept-encoding, accept',
+158 verbose headers   server: 'cloudflare' }
+159 silly get cb [ 304,
+159 silly get   { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+159 silly get     connection: 'keep-alive',
+159 silly get     'set-cookie':
+159 silly get      [ '__cfduid=dd15421ac2cf5888b5eed0cf939dd4baf1542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+159 silly get     'cf-cache-status': 'HIT',
+159 silly get     'cache-control': 'max-age=300',
+159 silly get     'cf-ray': '47d40c43bda63be7-CDG',
+159 silly get     etag: '"adaa1ccc1be07a73c33b4827a98fbfe6"',
+159 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+159 silly get     'last-modified': 'Sun, 27 May 2018 04:07:26 GMT',
+159 silly get     vary: 'accept-encoding, accept',
+159 silly get     server: 'cloudflare' } ]
+160 verbose etag https://registry.npmjs.org/hubot-google-images from cache
+161 verbose get saving hubot-google-images to /home/hadrien/.npm/registry.npmjs.org/hubot-google-images/.cache.json
+162 http 304 https://registry.npmjs.org/hubot-shipit
+163 verbose headers { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+163 verbose headers   connection: 'keep-alive',
+163 verbose headers   'set-cookie':
+163 verbose headers    [ '__cfduid=d08c1501ccf9faaae6aa2e986f36c7b681542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+163 verbose headers   'cf-cache-status': 'HIT',
+163 verbose headers   'cache-control': 'max-age=300',
+163 verbose headers   'cf-ray': '47d40c43cc143bf3-CDG',
+163 verbose headers   etag: '"cf4d122da08aad74a30feb4cdb6ee054"',
+163 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+163 verbose headers   'last-modified': 'Sun, 27 May 2018 04:09:19 GMT',
+163 verbose headers   vary: 'accept-encoding, accept',
+163 verbose headers   server: 'cloudflare' }
+164 silly get cb [ 304,
+164 silly get   { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+164 silly get     connection: 'keep-alive',
+164 silly get     'set-cookie':
+164 silly get      [ '__cfduid=d08c1501ccf9faaae6aa2e986f36c7b681542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+164 silly get     'cf-cache-status': 'HIT',
+164 silly get     'cache-control': 'max-age=300',
+164 silly get     'cf-ray': '47d40c43cc143bf3-CDG',
+164 silly get     etag: '"cf4d122da08aad74a30feb4cdb6ee054"',
+164 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+164 silly get     'last-modified': 'Sun, 27 May 2018 04:09:19 GMT',
+164 silly get     vary: 'accept-encoding, accept',
+164 silly get     server: 'cloudflare' } ]
+165 verbose etag https://registry.npmjs.org/hubot-shipit from cache
+166 verbose get saving hubot-shipit to /home/hadrien/.npm/registry.npmjs.org/hubot-shipit/.cache.json
+167 http 304 https://registry.npmjs.org/hubot-redis-brain
+168 verbose headers { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+168 verbose headers   connection: 'keep-alive',
+168 verbose headers   'set-cookie':
+168 verbose headers    [ '__cfduid=dc807d2803386bf20f8ef2acc558aa5421542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+168 verbose headers   'cf-cache-status': 'HIT',
+168 verbose headers   'cache-control': 'max-age=300',
+168 verbose headers   'cf-ray': '47d40c43cd64b7cb-CDG',
+168 verbose headers   etag: '"e20a5e3057700c421321a1a351419907"',
+168 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+168 verbose headers   'last-modified': 'Mon, 13 Aug 2018 20:56:39 GMT',
+168 verbose headers   vary: 'accept-encoding, accept',
+168 verbose headers   server: 'cloudflare' }
+169 silly get cb [ 304,
+169 silly get   { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+169 silly get     connection: 'keep-alive',
+169 silly get     'set-cookie':
+169 silly get      [ '__cfduid=dc807d2803386bf20f8ef2acc558aa5421542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+169 silly get     'cf-cache-status': 'HIT',
+169 silly get     'cache-control': 'max-age=300',
+169 silly get     'cf-ray': '47d40c43cd64b7cb-CDG',
+169 silly get     etag: '"e20a5e3057700c421321a1a351419907"',
+169 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+169 silly get     'last-modified': 'Mon, 13 Aug 2018 20:56:39 GMT',
+169 silly get     vary: 'accept-encoding, accept',
+169 silly get     server: 'cloudflare' } ]
+170 verbose etag https://registry.npmjs.org/hubot-redis-brain from cache
+171 verbose get saving hubot-redis-brain to /home/hadrien/.npm/registry.npmjs.org/hubot-redis-brain/.cache.json
+172 http 304 https://registry.npmjs.org/hubot-diagnostics
+173 verbose headers { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+173 verbose headers   connection: 'keep-alive',
+173 verbose headers   'set-cookie':
+173 verbose headers    [ '__cfduid=d079bf3581719847091112a406dd469fe1542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+173 verbose headers   'cf-cache-status': 'HIT',
+173 verbose headers   'cache-control': 'max-age=300',
+173 verbose headers   'cf-ray': '47d40c43c886b7c5-CDG',
+173 verbose headers   etag: '"552966fddbbe42c5e13ae80d7ffedf53"',
+173 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+173 verbose headers   'last-modified': 'Mon, 13 Aug 2018 20:55:23 GMT',
+173 verbose headers   vary: 'accept-encoding, accept',
+173 verbose headers   server: 'cloudflare' }
+174 silly get cb [ 304,
+174 silly get   { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+174 silly get     connection: 'keep-alive',
+174 silly get     'set-cookie':
+174 silly get      [ '__cfduid=d079bf3581719847091112a406dd469fe1542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+174 silly get     'cf-cache-status': 'HIT',
+174 silly get     'cache-control': 'max-age=300',
+174 silly get     'cf-ray': '47d40c43c886b7c5-CDG',
+174 silly get     etag: '"552966fddbbe42c5e13ae80d7ffedf53"',
+174 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+174 silly get     'last-modified': 'Mon, 13 Aug 2018 20:55:23 GMT',
+174 silly get     vary: 'accept-encoding, accept',
+174 silly get     server: 'cloudflare' } ]
+175 verbose etag https://registry.npmjs.org/hubot-diagnostics from cache
+176 verbose get saving hubot-diagnostics to /home/hadrien/.npm/registry.npmjs.org/hubot-diagnostics/.cache.json
+177 http 304 https://registry.npmjs.org/hubot
+178 verbose headers { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+178 verbose headers   connection: 'keep-alive',
+178 verbose headers   'set-cookie':
+178 verbose headers    [ '__cfduid=d45bfdf0001f002dd67c8e64da1dfb6c91542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+178 verbose headers   'cf-cache-status': 'HIT',
+178 verbose headers   'cache-control': 'max-age=300',
+178 verbose headers   'cf-ray': '47d40c43c8463c11-CDG',
+178 verbose headers   etag: '"9922d4039046a26ff8531642604b65b9"',
+178 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+178 verbose headers   'last-modified': 'Fri, 03 Aug 2018 16:58:48 GMT',
+178 verbose headers   vary: 'accept-encoding, accept',
+178 verbose headers   server: 'cloudflare' }
+179 silly get cb [ 304,
+179 silly get   { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+179 silly get     connection: 'keep-alive',
+179 silly get     'set-cookie':
+179 silly get      [ '__cfduid=d45bfdf0001f002dd67c8e64da1dfb6c91542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+179 silly get     'cf-cache-status': 'HIT',
+179 silly get     'cache-control': 'max-age=300',
+179 silly get     'cf-ray': '47d40c43c8463c11-CDG',
+179 silly get     etag: '"9922d4039046a26ff8531642604b65b9"',
+179 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+179 silly get     'last-modified': 'Fri, 03 Aug 2018 16:58:48 GMT',
+179 silly get     vary: 'accept-encoding, accept',
+179 silly get     server: 'cloudflare' } ]
+180 verbose etag https://registry.npmjs.org/hubot from cache
+181 verbose get saving hubot to /home/hadrien/.npm/registry.npmjs.org/hubot/.cache.json
+182 http 304 https://registry.npmjs.org/hubot-help
+183 verbose headers { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+183 verbose headers   connection: 'keep-alive',
+183 verbose headers   'set-cookie':
+183 verbose headers    [ '__cfduid=d45bfdf0001f002dd67c8e64da1dfb6c91542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+183 verbose headers   'cf-cache-status': 'HIT',
+183 verbose headers   'cache-control': 'max-age=300',
+183 verbose headers   'cf-ray': '47d40c43c8473c11-CDG',
+183 verbose headers   etag: '"30f574fe53053b93e9c503d7c8197dd4"',
+183 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+183 verbose headers   'last-modified': 'Mon, 13 Aug 2018 20:55:49 GMT',
+183 verbose headers   vary: 'accept-encoding, accept',
+183 verbose headers   server: 'cloudflare' }
+184 silly get cb [ 304,
+184 silly get   { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+184 silly get     connection: 'keep-alive',
+184 silly get     'set-cookie':
+184 silly get      [ '__cfduid=d45bfdf0001f002dd67c8e64da1dfb6c91542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+184 silly get     'cf-cache-status': 'HIT',
+184 silly get     'cache-control': 'max-age=300',
+184 silly get     'cf-ray': '47d40c43c8473c11-CDG',
+184 silly get     etag: '"30f574fe53053b93e9c503d7c8197dd4"',
+184 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+184 silly get     'last-modified': 'Mon, 13 Aug 2018 20:55:49 GMT',
+184 silly get     vary: 'accept-encoding, accept',
+184 silly get     server: 'cloudflare' } ]
+185 verbose etag https://registry.npmjs.org/hubot-help from cache
+186 verbose get saving hubot-help to /home/hadrien/.npm/registry.npmjs.org/hubot-help/.cache.json
+187 http 304 https://registry.npmjs.org/hubot-google-translate
+188 verbose headers { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+188 verbose headers   connection: 'keep-alive',
+188 verbose headers   'set-cookie':
+188 verbose headers    [ '__cfduid=dd0e644cdbbcdce904ce47fbb22233d6b1542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+188 verbose headers   'cf-cache-status': 'HIT',
+188 verbose headers   'cache-control': 'max-age=300',
+188 verbose headers   'cf-ray': '47d40c43c9cbb78f-CDG',
+188 verbose headers   etag: '"be028cb1112677e1dcfc3ce4026cf71b"',
+188 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+188 verbose headers   'last-modified': 'Sun, 27 May 2018 04:07:26 GMT',
+188 verbose headers   vary: 'accept-encoding, accept',
+188 verbose headers   server: 'cloudflare' }
+189 silly get cb [ 304,
+189 silly get   { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+189 silly get     connection: 'keep-alive',
+189 silly get     'set-cookie':
+189 silly get      [ '__cfduid=dd0e644cdbbcdce904ce47fbb22233d6b1542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+189 silly get     'cf-cache-status': 'HIT',
+189 silly get     'cache-control': 'max-age=300',
+189 silly get     'cf-ray': '47d40c43c9cbb78f-CDG',
+189 silly get     etag: '"be028cb1112677e1dcfc3ce4026cf71b"',
+189 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+189 silly get     'last-modified': 'Sun, 27 May 2018 04:07:26 GMT',
+189 silly get     vary: 'accept-encoding, accept',
+189 silly get     server: 'cloudflare' } ]
+190 verbose etag https://registry.npmjs.org/hubot-google-translate from cache
+191 verbose get saving hubot-google-translate to /home/hadrien/.npm/registry.npmjs.org/hubot-google-translate/.cache.json
+192 http 304 https://registry.npmjs.org/hubot-maps
+193 verbose headers { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+193 verbose headers   connection: 'keep-alive',
+193 verbose headers   'set-cookie':
+193 verbose headers    [ '__cfduid=dd15421ac2cf5888b5eed0cf939dd4baf1542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+193 verbose headers   'cf-cache-status': 'HIT',
+193 verbose headers   'cache-control': 'max-age=300',
+193 verbose headers   'cf-ray': '47d40c43cdb13be7-CDG',
+193 verbose headers   etag: '"290fcbbf1550491d8d277b6bf299d30e"',
+193 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+193 verbose headers   'last-modified': 'Sun, 27 May 2018 04:08:15 GMT',
+193 verbose headers   vary: 'accept-encoding, accept',
+193 verbose headers   server: 'cloudflare' }
+194 silly get cb [ 304,
+194 silly get   { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+194 silly get     connection: 'keep-alive',
+194 silly get     'set-cookie':
+194 silly get      [ '__cfduid=dd15421ac2cf5888b5eed0cf939dd4baf1542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+194 silly get     'cf-cache-status': 'HIT',
+194 silly get     'cache-control': 'max-age=300',
+194 silly get     'cf-ray': '47d40c43cdb13be7-CDG',
+194 silly get     etag: '"290fcbbf1550491d8d277b6bf299d30e"',
+194 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+194 silly get     'last-modified': 'Sun, 27 May 2018 04:08:15 GMT',
+194 silly get     vary: 'accept-encoding, accept',
+194 silly get     server: 'cloudflare' } ]
+195 verbose etag https://registry.npmjs.org/hubot-maps from cache
+196 verbose get saving hubot-maps to /home/hadrien/.npm/registry.npmjs.org/hubot-maps/.cache.json
+197 http 304 https://registry.npmjs.org/hubot-pugme
+198 verbose headers { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+198 verbose headers   connection: 'keep-alive',
+198 verbose headers   'set-cookie':
+198 verbose headers    [ '__cfduid=dd725bb01a25c6962c950e777bf12ab7f1542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+198 verbose headers   'cf-cache-status': 'HIT',
+198 verbose headers   'cache-control': 'max-age=300',
+198 verbose headers   'cf-ray': '47d40c43c8eb3be1-CDG',
+198 verbose headers   etag: '"9de22352ede70d849c07b080de8d172f"',
+198 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+198 verbose headers   'last-modified': 'Sun, 27 May 2018 04:08:48 GMT',
+198 verbose headers   vary: 'accept-encoding, accept',
+198 verbose headers   server: 'cloudflare' }
+199 silly get cb [ 304,
+199 silly get   { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+199 silly get     connection: 'keep-alive',
+199 silly get     'set-cookie':
+199 silly get      [ '__cfduid=dd725bb01a25c6962c950e777bf12ab7f1542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+199 silly get     'cf-cache-status': 'HIT',
+199 silly get     'cache-control': 'max-age=300',
+199 silly get     'cf-ray': '47d40c43c8eb3be1-CDG',
+199 silly get     etag: '"9de22352ede70d849c07b080de8d172f"',
+199 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+199 silly get     'last-modified': 'Sun, 27 May 2018 04:08:48 GMT',
+199 silly get     vary: 'accept-encoding, accept',
+199 silly get     server: 'cloudflare' } ]
+200 verbose etag https://registry.npmjs.org/hubot-pugme from cache
+201 verbose get saving hubot-pugme to /home/hadrien/.npm/registry.npmjs.org/hubot-pugme/.cache.json
+202 http 304 https://registry.npmjs.org/hubot-heroku-keepalive
+203 verbose headers { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+203 verbose headers   connection: 'keep-alive',
+203 verbose headers   'set-cookie':
+203 verbose headers    [ '__cfduid=d08c1501ccf9faaae6aa2e986f36c7b681542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+203 verbose headers   'cf-cache-status': 'HIT',
+203 verbose headers   'cache-control': 'max-age=300',
+203 verbose headers   'cf-ray': '47d40c43cc113bf3-CDG',
+203 verbose headers   etag: '"ffc0dd67cd218ec962f3f4e2b20c1688"',
+203 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+203 verbose headers   'last-modified': 'Sun, 27 May 2018 04:07:34 GMT',
+203 verbose headers   vary: 'accept-encoding, accept',
+203 verbose headers   server: 'cloudflare' }
+204 silly get cb [ 304,
+204 silly get   { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+204 silly get     connection: 'keep-alive',
+204 silly get     'set-cookie':
+204 silly get      [ '__cfduid=d08c1501ccf9faaae6aa2e986f36c7b681542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+204 silly get     'cf-cache-status': 'HIT',
+204 silly get     'cache-control': 'max-age=300',
+204 silly get     'cf-ray': '47d40c43cc113bf3-CDG',
+204 silly get     etag: '"ffc0dd67cd218ec962f3f4e2b20c1688"',
+204 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+204 silly get     'last-modified': 'Sun, 27 May 2018 04:07:34 GMT',
+204 silly get     vary: 'accept-encoding, accept',
+204 silly get     server: 'cloudflare' } ]
+205 verbose etag https://registry.npmjs.org/hubot-heroku-keepalive from cache
+206 verbose get saving hubot-heroku-keepalive to /home/hadrien/.npm/registry.npmjs.org/hubot-heroku-keepalive/.cache.json
+207 http 304 https://registry.npmjs.org/hubot-rules
+208 verbose headers { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+208 verbose headers   connection: 'keep-alive',
+208 verbose headers   'set-cookie':
+208 verbose headers    [ '__cfduid=d41816de4c82179f7a139d17e9b3646fd1542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+208 verbose headers   'cf-cache-status': 'HIT',
+208 verbose headers   'cache-control': 'max-age=300',
+208 verbose headers   'cf-ray': '47d40c440928bd65-CDG',
+208 verbose headers   etag: '"e85455880be94eecb55fe0c798027fa1"',
+208 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+208 verbose headers   'last-modified': 'Mon, 13 Aug 2018 20:57:04 GMT',
+208 verbose headers   vary: 'accept-encoding, accept',
+208 verbose headers   server: 'cloudflare' }
+209 silly get cb [ 304,
+209 silly get   { date: 'Wed, 21 Nov 2018 15:04:17 GMT',
+209 silly get     connection: 'keep-alive',
+209 silly get     'set-cookie':
+209 silly get      [ '__cfduid=d41816de4c82179f7a139d17e9b3646fd1542812657; expires=Thu, 21-Nov-19 15:04:17 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+209 silly get     'cf-cache-status': 'HIT',
+209 silly get     'cache-control': 'max-age=300',
+209 silly get     'cf-ray': '47d40c440928bd65-CDG',
+209 silly get     etag: '"e85455880be94eecb55fe0c798027fa1"',
+209 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+209 silly get     'last-modified': 'Mon, 13 Aug 2018 20:57:04 GMT',
+209 silly get     vary: 'accept-encoding, accept',
+209 silly get     server: 'cloudflare' } ]
+210 verbose etag https://registry.npmjs.org/hubot-rules from cache
+211 verbose get saving hubot-rules to /home/hadrien/.npm/registry.npmjs.org/hubot-rules/.cache.json
+212 silly install normalizeTree
+213 silly loadCurrentTree Finishing
+214 silly loadIdealTree Starting
+215 silly install loadIdealTree
+216 silly cloneCurrentTree Starting
+217 silly install cloneCurrentTreeToIdealTree
+218 silly cloneCurrentTree Finishing
+219 silly loadShrinkwrap Starting
+220 silly install loadShrinkwrap
+221 silly loadShrinkwrap Finishing
+222 silly loadAllDepsIntoIdealTree Starting
+223 silly install loadAllDepsIntoIdealTree
+224 silly rollbackFailedOptional Starting
+225 silly rollbackFailedOptional Finishing
+226 silly runTopLevelLifecycles Starting
+227 silly runTopLevelLifecycles Finishing
+228 silly install printInstalled
+229 verbose stack Error: Refusing to install hubot as a dependency of itself
+229 verbose stack     at checkSelf (/usr/share/npm/lib/install/validate-args.js:40:14)
+229 verbose stack     at Array.<anonymous> (/usr/share/npm/node_modules/slide/lib/bind-actor.js:15:8)
+229 verbose stack     at LOOP (/usr/share/npm/node_modules/slide/lib/chain.js:15:14)
+229 verbose stack     at chain (/usr/share/npm/node_modules/slide/lib/chain.js:20:5)
+229 verbose stack     at /usr/share/npm/lib/install/validate-args.js:15:5
+229 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:35
+229 verbose stack     at Array.forEach (<anonymous>)
+229 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:11
+229 verbose stack     at Array.forEach (<anonymous>)
+229 verbose stack     at asyncMap (/usr/share/npm/node_modules/slide/lib/async-map.js:51:8)
+230 verbose cwd /home/hadrien/Documents/Documents Perso/Projets Perso/BeerBot/hubot
+231 error Linux 4.15.0-36-generic
+232 error argv "/usr/bin/node" "/usr/bin/npm" "install" "hubot" "hubot-scripts" "hubot-diagnostics" "hubot-help" "hubot-heroku-keepalive" "hubot-google-images" "hubot-google-translate" "hubot-pugme" "hubot-maps" "hubot-redis-brain" "hubot-rules" "hubot-shipit" "--save"
+233 error node v8.10.0
+234 error npm  v3.5.2
+235 error code ENOSELF
+236 error Refusing to install hubot as a dependency of itself
+237 error If you need help, you may report this error at:
+237 error     <https://github.com/npm/npm/issues>
+238 verbose exit [ 1, true ]
